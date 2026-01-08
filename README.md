@@ -39,8 +39,9 @@ When you type a question, the system doesn't just "guess"; it performs a mathema
 ```bash
 git clone [https://github.com/SatyanarayanaChittala24/Research_paper_analysis.git](https://github.com/SatyanarayanaChittala24/Research_paper_analysis.git)
 cd Research_paper_analysis
+---
 
-2. Environment Configuration
+### 2. Environment Configuration
 Create a .env file in the backend/ directory:
 
 ```bash
@@ -61,4 +62,5 @@ Upload: Select a Research Paper (PDF). The system will "Index" it by breaking it
 Query: Type a specific question in the chat box, such as "What is the methodology used in this study?"
 
 Retrieve: The system scans the FAISS index, retrieves the most relevant information from the PDF, and provides a summarized, accurate answer.
+
 
