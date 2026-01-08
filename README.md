@@ -47,20 +47,23 @@ Create a .env file in the backend/ directory:
 ```bash
 # backend/.env
 GEMINI_API_KEY=your_api_key_here
-3. Running the Application
+
+---
+
+### **3. Running the Application
 Start Backend:
-
 ```bash
-
 cd backend
 python app.py
-Start Frontend: Open frontend/index.html in your web browser.
 
-🚀 Usage Guide
+Start Frontend: Open frontend/index.html in your web browser.
+###
+**🚀 Usage Guide
 Upload: Select a Research Paper (PDF). The system will "Index" it by breaking it into chunks and saving them into the FAISS vector database.
 
 Query: Type a specific question in the chat box, such as "What is the methodology used in this study?"
 
 Retrieve: The system scans the FAISS index, retrieves the most relevant information from the PDF, and provides a summarized, accurate answer.
+
 
 
